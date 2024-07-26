@@ -13,28 +13,19 @@ The`bdr_band_image.ipynb` notebook contains the implementation of the Bayesian D
 - Estimating the parameters of the probability distributions for each class (river and non-river).
 - Implementing the Bayesian Decision Rule to classify each pixel in the satellite image.
 - Visualizing the classified regions.
-- 
+## Output
+The classified regions are saved as an output image as `Output.png`. This image shows the areas classified as river and non-river.
 ## Repository Structure
 
 - `Data/`: This directory contains the dataset, which includes satellite images used for classification.
 - `Code/`: This directory contains the scripts and notebooks for the project.
   - `annotate_image_points.py`: Script for annotating points on the satellite images.
   - `bdr_band_image.ipynb`: Jupyter notebook containing the code for implementing the Bayesian Decision Rule from scratch.
-- `Output/`: This directory contains the output image showing the classified regions.
   - `Output.png`: Image with the classified river and non-river regions.
 - `README.md`: This file, providing an overview of the project.
 
-## Requirements
-
-- Python 3.x
-- numpy
-- matplotlib
-- scikit-learn
-- opencv-python
-- rasterio
-- Jupyter Notebook
-
-You can install the required packages using the following command:
-
-```bash
-pip install numpy matplotlib scikit-learn opencv-python rasterio jupyter
+## Conclusion
+This project demonstrates how to classify river and non-river regions in satellite images using the Bayesian Decision Rule from scratch. The implementation includes data annotation, parameter estimation, and classification, providing a comprehensive understanding of the process.
+## Contact
+**Rakesh Nemu**
+ ---
