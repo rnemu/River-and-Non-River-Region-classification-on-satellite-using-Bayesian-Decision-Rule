@@ -13,7 +13,7 @@ The`bdr_band_image.ipynb` notebook contains the implementation of the Bayesian D
 - Estimating the parameters of the probability distributions for each class (river and non-river).
 - Implementing the Bayesian Decision Rule to classify each pixel in the satellite image.
 - Visualizing the classified regions.
-## Output
+### Output
 The classified regions are saved as an output image as `Output.png`. This image shows the areas classified as river and non-river.
 ## Repository Structure
 
@@ -27,5 +27,7 @@ The classified regions are saved as an output image as `Output.png`. This image 
 ## Conclusion
 This project demonstrates how to classify river and non-river regions in satellite images using the Bayesian Decision Rule from scratch. The implementation includes data annotation, parameter estimation, and classification, providing a comprehensive understanding of the process.
 ## Contact
+
 **Rakesh Nemu**
- ---
+
+--- 
